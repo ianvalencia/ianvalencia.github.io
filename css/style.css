@@ -9,7 +9,6 @@ body {
   height: 100%;
   top: 0;
   left: 0;
-  background: #000;
 }
 .welcome {
   position: absolute;
@@ -26,6 +25,5 @@ body {
   margin-right: 0 20px;
   font-size: 5em;
   opacity: 1;
-  color: #fff;
   transition: all 3s ease;
 }
