@@ -16,6 +16,12 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
+  margin-left:-140px;
+  margin-top:-140px;
+  width:280px;
+  height:280px;
+  line-height:280px;
+  -webkit-font-smoothing: antialiased;
 }
 .insignia {
   list-style: none;
