@@ -14,7 +14,7 @@ body {
       display: table;
 }
 
-.content {
+.short-intro {
       position: absolute;
       top: 30%;
       left: 20%;
@@ -22,12 +22,18 @@ body {
 
 }
 
-.content h1, p {
+.short-intro h1, p {
       color: #fff;
       font-family: 'Montserrat', sans-serif;
       font-weight: 900;
 }
 
+.about {
+      position: absolute;
+      top: 30%;
+      left: 50%
+      transform: translate(-50%, -50%);
+}
 .name {
       color: #b19cd9;
 }
