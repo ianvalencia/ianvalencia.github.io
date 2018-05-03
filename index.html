@@ -53,6 +53,14 @@
 
       $(this).toggleClass('on');
       $("#resize").toggleClass("active");
+      var welcomeSection = $('.welcome-section');
+      setTimeout(function() {
+            welcomeSection.removeClass('content-hidden');
+      },800);
+
+      welcomeSection.click(function() {
+            welcomeSection.addClass('content-hidden');
+      });
 
       });
       </script>
