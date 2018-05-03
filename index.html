@@ -41,8 +41,8 @@
       <div class="welcome-section content-hidden">
             <div class="content-wrap">
                   <ul class="fly-in-text">
-                        <li>I</li>
-                        <li>V</li>
+                        <li class="hover">I</li>
+                        <li class="hover">V</li>
                   </ul>
             </div>
       </div>
@@ -63,8 +63,8 @@
                   welcomeSection.fadeOut(300);
             });
 
-            $('.fly-in-text').hover(function() {
-                  $(this).children().toggleClass('hover');
+            welcomeSection.hover(function() {
+                  $(this).children().children().children().toggleClass('hover');
             });
       });      
       </script>
