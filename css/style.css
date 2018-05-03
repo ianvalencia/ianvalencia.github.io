@@ -35,5 +35,8 @@ body {
     font-size: 5em;
     opacity: 1;
     transition: all 3s ease;
-    color: #fff;
+}
+
+.insignia li:nth-child(2) {
+    margin-right: 0;
 }
