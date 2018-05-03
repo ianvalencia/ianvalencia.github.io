@@ -78,7 +78,7 @@ nav #menu li a {
       content: '';
       display: block;
       width: 0;
-      height: 2px;
+      height: -68px;
       background: #fff;
       transition: width .3s;
 }
