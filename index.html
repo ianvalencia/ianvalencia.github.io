@@ -52,6 +52,10 @@
         $('.welcome-container').click(function() {
             $(this).fadeOut(800);
         });    
+        $('#toggle').click(function() {
+            $(this).toggleClass('on');
+            $('#resize').toggleClass('active');
+        });
     });
     </script>
 </body>
