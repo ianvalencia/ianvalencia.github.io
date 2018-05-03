@@ -209,6 +209,10 @@ nav #menu li a {
       transform: translate(-50%, -50%);
 }
 
+.fly-in-text:hover {
+      color: #b19cd9;
+}
+
 .fly-in-text li {
       display: inline-block;
       margin-right: 20px;
