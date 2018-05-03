@@ -157,6 +157,10 @@ nav #menu li a {
       color: #fff;
 }
 
+#resize #menu li a:hover {
+      color: #fff;
+}
+
 #resize.active {
       visibility: visible;
       opacity: 0.99;
@@ -220,9 +224,6 @@ nav #menu li a {
       font-family: 'Montserrat', sans-serif;
 }
 
-.fly-in-text li .hover {
-      color: #b19cd9;
-}
 
 .fly-in-text li:nth-child(2) {
       margin-right: 0;
