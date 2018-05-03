@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Neuton');
 
 * {
       margin: 0;
@@ -31,6 +31,23 @@ body {
 .about {
       width: 60%;
       margin: auto;  
+}
+
+.about h1 {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      color: #b19cd9;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 900;
+}
+
+.about p {
+      display: block;
+      color: #fff;
+      font-family: 'Neuton', serif;
+      font-weight: 200;
+
 }
 
 .display-picture {
