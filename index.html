@@ -9,7 +9,10 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 <body>
-    <div class="welcome-container">
+    <div class="content-wrapper">
+        <h1>Hello there!</h1>
+    </div>
+    <div class="welcome-container content-hidden">
         <div class="welcome">
             <ul class="insignia">
                 <li>I</li>
@@ -19,8 +22,9 @@
     </div>
     <script>
     $(function() {
-        var wow = $('.welcome-container');
-        wow.hide(300).show(300).hide(300).show(300).hide(300).show(300).hide(300).show(300);
+        $('.welcome-container').click(function() {
+            $(this).hide();
+        });    
     });
     </script>
 </body>
