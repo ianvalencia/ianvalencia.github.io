@@ -71,7 +71,8 @@ nav #menu li a {
       font-family: 'Montserrat', sans-serif;
       font-weight: 200;
 }
-.animate-menu:hover {
+
+nav #menu li:hover a {
       color: #b19cd9;
 }
 
