@@ -10,8 +10,7 @@
 body {
       width: 100%;
       height: 100vh;
-      background: url(tile1.png) repeat 50% 50%;
-      background-size: cover;
+      background: url(tile2.png) repeat 50% 50%;
       display: table;
 }
 
