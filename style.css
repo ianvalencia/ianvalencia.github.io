@@ -42,7 +42,7 @@ body {
       font-weight: 900;
       text-align: center;
       padding: 20px;
-      font-size: 50px;
+      font-size: 40px;
 }
 
 .about p {
@@ -50,7 +50,7 @@ body {
       color: #fff;
       font-family: 'Lato', sans-serif;
       font-weight: 200;
-      font-size: 20px;
+      font-size: 18px;
       padding-bottom:10px;
       text-indent: 50px;
       text-align:justify;
@@ -239,6 +239,22 @@ nav #menu li:hover a {
       }
       .short-intro p {
             font-size: 5.65vw;
+      }
+      
+      .about {
+            width: 60%;
+      }
+      
+      .display-picture {
+            width: 30vw;
+      }
+      
+      .about h1 {
+            font-size: xx-large;
+      }
+      
+      .about p {
+            font-size: medium;
       }
 }
 
