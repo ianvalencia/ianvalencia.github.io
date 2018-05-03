@@ -29,10 +29,18 @@ body {
 }
 
 .about {
-      position: absolute;
-      top: 30%;
-      left: 50%
-      transform: translate(-50%, -50%);
+      width: 60%;
+      margin: auto;  
+}
+
+.display-picture {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 10%;
+      width: 15vw;
+      -webkit-clip-path: circle(50.0% at 50% 50%);
+      clip-path: circle(50.0% at 50% 50%);
 }
 .name {
       color: #b19cd9;
