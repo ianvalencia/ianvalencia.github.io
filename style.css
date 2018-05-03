@@ -77,7 +77,7 @@ nav #menu li a {
       display: block;
       width: 0;
       height: 2px;
-      background: #fff;
+      background: #b19cd9;
       transition: width .3s;
 }
 
@@ -199,6 +199,7 @@ nav #menu li a {
       left: 0;
       background: #000;
       overflow: hidden;
+      cursor: default;
 }
 
 .content-wrap {
