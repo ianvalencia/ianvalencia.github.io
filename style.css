@@ -16,24 +16,20 @@ body {
 
 .content {
       position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
+      top: 30%;
+      left: 20%;
+      right: 20%;
+
 }
 
 .content h1, p {
       color: #fff;
       font-family: 'Montserrat', sans-serif;
-      font-weight: 200;
-      font-size: 40px;
-      text-align: center; 
+      font-weight: 900;
 }
 
 .name {
       color: #b19cd9;
-      font-family: 'Montserrat', sans-serif;
-      font-weight: 400;
-      font-size: 40px;
 }
 
 nav {
@@ -197,6 +193,14 @@ nav #menu li:hover a {
 
       nav #menu {
             display: none;
+      }
+      
+      .content {
+            left: 10%;
+            right: 10%;
+      }
+      .content h1, p {
+            font-size: 5.65vw;
       }
 }
 
