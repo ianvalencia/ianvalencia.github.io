@@ -74,6 +74,19 @@ nav #menu li a {
       font-weight: 200;
 }
 
+.animated-menu::after {
+      content: '';
+      display: block;
+      width: 0;
+      height: 2px;
+      background: #fff;
+      transition: width .3s;
+}
+
+.animated-menu:hover::after {
+      width: 100%;
+      transform: width .3s;
+}
 #toggle {
       position: absolute;
       right: 20px;
