@@ -48,21 +48,25 @@
       </div>
 
       <script>
+      $(function() {
+            $("#toggle").click(function() {
 
-      $("#toggle").click(function() {
+            $(this).toggleClass('on');
+            $("#resize").toggleClass("active");
+            });
 
-      $(this).toggleClass('on');
-      $("#resize").toggleClass("active");
-      var welcomeSection = $('.welcome-section');
-      setTimeout(function() {
-            welcomeSection.removeClass('content-hidden');
-      },800);
+            var welcomeSection = $('.welcome-section');
+            setTimeout(function() {
+                  welcomeSection.removeClass('content-hidden');
+            },800);
 
-      welcomeSection.click(function() {
-            welcomeSection.addClass('content-hidden');
+            welcomeSection.click(function() {
+                  welcomeSection.addClass('content-hidden');
+            });
       });
+      
 
-      });
+      
       </script>
 </body>
 </html>
