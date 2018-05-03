@@ -55,8 +55,7 @@ nav #brand a {
 }
 
 nav #menu {
-      float: left;
-      left: 70%;
+      float: right;
       position: relative;
 }
 
