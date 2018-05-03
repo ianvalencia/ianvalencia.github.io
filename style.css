@@ -195,18 +195,30 @@ nav #menu li:hover a {
             display: none;
       }
       
-      .content {
+      .short-intro {
             left: 10%;
             right: 10%;
       }
-      .content h1, p {
+      .short-intro p {
             font-size: 5.65vw;
       }
 }
 
-@media(min-width: 768px) {
+@media(min-width: 768px){
       #resize {
             visibility: hidden !important;
+      }   
+}
+
+@media(min-width: 768px) and (max-width: 960px) {
+      .short-intro p {
+            font-size: 38px;
+      }
+}
+
+@media(min-width: 960px) {
+      .short-intro p {
+            font-size: 48px;
       }
 }
 
