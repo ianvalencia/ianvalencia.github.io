@@ -73,6 +73,10 @@ body {
       font-size: 40px;
 }
 
+.works ul {
+      list-style-image: url('bullet.png');
+}
+
 .works ul li {
       border-bottom: 1px solid #ccc;
       color: #fff;
@@ -254,7 +258,6 @@ nav #menu li:hover a {
       opacity: 0.99;
 }
 
-
 @media(max-width: 768px) {
       #toggle {
             visibility: visible;
@@ -299,6 +302,10 @@ nav #menu li:hover a {
       .about p {
             font-size: medium;
       }
+      
+      .works {
+            width: 60%;
+      }
 }
 
 @media(min-width: 768px){
@@ -337,7 +344,6 @@ nav #menu li:hover a {
       transform: translate(-50%, -50%);
 }
 
-
 .fly-in-text li {
       display: inline-block;
       margin-right: 20px;
@@ -348,7 +354,6 @@ nav #menu li:hover a {
       font-family: 'Montserrat', sans-serif;
       font-weight: 900;
 }
-
 
 .fly-in-text li:nth-child(2) {
       margin-right: 0;
