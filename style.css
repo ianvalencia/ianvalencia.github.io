@@ -73,10 +73,6 @@ body {
       font-size: 40px;
 }
 
-.works ul {
-      list-style-image: url(bullet.png);
-}
-
 .works ul li {
       border-bottom: 1px solid #ccc;
       color: #fff;
