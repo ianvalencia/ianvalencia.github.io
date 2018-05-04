@@ -54,8 +54,54 @@ body {
       padding-bottom:10px;
       text-indent: 50px;
       text-align:justify;
-
 }
+
+.works {
+      width: 40%;
+      margin: auto; 
+}
+
+.works h1 {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      color: #b19cd9;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 900;
+      text-align: center;
+      padding: 20px;
+      font-size: 40px;
+}
+
+.works ul {
+      list-style: none;
+}
+
+.works ul li {
+      border-bottom: 1px solid #ccc;
+      color: #000;
+      display: block;
+      width: 200px;
+      font-family: 'Lato', sans-serif;
+      font-weight: 200;
+      font-size: 20px;
+
+      -webkit-transition: font-size 0.3s ease, background-color 0.3s ease;
+      -moz-transition: font-size 0.3s ease, background-color 0.3s ease;
+      -o-transition: font-size 0.3s ease, background-color 0.3s ease;
+      -ms-transition: font-size 0.3s ease, background-color 0.3s ease;
+      transition: font-size 0.3s ease, background-color 0.3s ease;
+}
+
+.works ul li:last-child {
+      border: none;
+}
+
+.works ul li a:hover {
+      font-size: 30px;
+      background: #f6f6f6;
+}
+
 
 .display-picture {
       display: block;
