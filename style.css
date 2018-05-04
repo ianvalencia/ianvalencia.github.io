@@ -74,17 +74,18 @@ body {
 }
 
 .works ul {
-      list-style: none;
+      list-style-image: url(bullet.png);
 }
 
 .works ul li {
       border-bottom: 1px solid #ccc;
-      color: #000;
+      color: #fff;
       display: block;
-      width: 200px;
+      width: 100;
       font-family: 'Lato', sans-serif;
       font-weight: 200;
       font-size: 20px;
+      padding: 20px 0;
 
       -webkit-transition: font-size 0.3s ease, background-color 0.3s ease;
       -moz-transition: font-size 0.3s ease, background-color 0.3s ease;
@@ -97,9 +98,9 @@ body {
       border: none;
 }
 
-.works ul li a:hover {
+.works ul li:hover {
       font-size: 30px;
-      background: #f6f6f6;
+      color: #b19cd9;
 }
 
 
